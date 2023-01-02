@@ -12,10 +12,19 @@ const quotes = [
     'She is never coming back.'
 ];
 
-const text = quotes[Math.floor(Math.random() * quotes.length)];
+//const text = quotes[Math.floor(Math.random() * quotes.length)];
+
+function getRandomQuote(array){
+let quoteIndex = [Math.floor(Math.random() * quotes.length)];
+
+for (var i = 0; i < array.length; i++) {
+    var randomQuote = array[quoteIndex];
+    }
+    return randomQuote;
+};
 
 module.exports = async function (context, req) {
     context.res.json({
-        text: text
+        text: getRandomQuote(quotes)
     });
 };
