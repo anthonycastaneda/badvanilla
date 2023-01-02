@@ -1,13 +1,8 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-body {
     transition: background 2s ease;
-    background: #4cf;
+    background: no-repeat center/150% url("Lakehouse.jpeg");
+    background-color: #4cf;
     display: flex;
     align-items: center;
     justify-content: center;
