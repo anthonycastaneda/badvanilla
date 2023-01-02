@@ -3,7 +3,7 @@ const quotes = [
     'Break what must be broken, once for all, that\'s all, and take the suffering on oneself.',
     'We do not suffer by accident.',
     'Grief is forever. It doesn\'t go away; it becomes a part of you, step for step, breath for breath.',
-    'Anyone who has lost something they thought was theirs forever finally comes to realise that nothing really belongs to them.',
+    'My body kills me, so I kill it.',
     'Her absence is like the sky, spread over everything..',
     'Death is only the end if you assume the story is about you.',
     'It is possible for things to get worse without limit.',

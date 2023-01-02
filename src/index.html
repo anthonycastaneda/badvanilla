@@ -2,24 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Bad Acid</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stay positive</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=block" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
+<!--- <body>
     <main>
         <h1>BadAcid</h1>
         <p><b id="name">...</b></p>
     </main>
+--->
 
-    <script>
-        (async function () {
-            const { text } = await (await fetch(`/api/message`)).json();
-            document.querySelector('#name').textContent = text;
-        }());
-    </script>
-</body>
+    <body>
+        <h1 id="name">
+            <div class="loader"></div>
+            </div>
+            <script>
+                (async function () {
+                    const { text } = await (await fetch(`/api/message`)).json();
+                    document.querySelector('#name').textContent = text;
+                }());
+            </script>
+    </body>
 
 </html>
