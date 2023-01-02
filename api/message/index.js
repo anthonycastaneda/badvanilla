@@ -11,19 +11,11 @@ const quotes = [
     'I\'m hoping he can save me, even though I realize he can\'t.',
     'She is never coming back.'
 ];
+
+const text = quotes[Math.floor(Math.random() * quotes.length)];
+
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
-
-    const quotetext = quotes[Math.floor(Math.random() * quotes.length)];
-
-    context.res.json = {
-        text: {
-            quotetext
-        }
-    };
+    context.res.json({
+        text: text
+    });
 };
-//module.exports = async function (context, req) {
-//    context.res.json({
-//        text: "Hello from the API"
-//    });
-//};
