@@ -6,10 +6,10 @@ body {
 }
 
 body {
-    transition: background 2s ease;
+    /*transition: background 2s ease;*/
     background: center url("lakehouse.png");
     background-color: transparent;
-    display: block;
+    display: flex;
     align-items: safe-center;
     justify-content: center;
 }
