@@ -12,7 +12,11 @@ const quotes = [
     'She is never coming back.',
     'Time that withers you will wither me.',
     'They give birth astride of a grave, the light gleams an instant, then it\'s night once more.',
-    'Absence is a house so vast that inside you will pass through its walls and hang pictures on the air.'
+    'Absence is a house so vast that inside you will pass through its walls and hang pictures on the air.',
+    'You don\’t understand depression until you can\’t stand your own presence in an empty room.',
+    'Waste your life.',
+    'You were wrong when you said \'everything\'s gonna be alright.\'',
+    'We all breathe our last breath alone under the indifferent stars above.'
 ];
 
 //const text = quotes[Math.floor(Math.random() * quotes.length)];
