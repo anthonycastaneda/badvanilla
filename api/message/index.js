@@ -1,4 +1,3 @@
-//const https = require('https');
 const quotes = [
     'You never stop, never get to rest.',
     'We do not suffer by accident.',
@@ -19,8 +18,6 @@ const quotes = [
     'We all breathe our last breath alone under the indifferent stars above.'
 ];
 
-//const text = quotes[Math.floor(Math.random() * quotes.length)];
-
 function getRandomQuote(array){
 let quoteIndex = [Math.floor(Math.random() * quotes.length)];
 
@@ -28,7 +25,7 @@ for (var i = 0; i < array.length; i++) {
     var randomQuote = array[quoteIndex];
     }
     return randomQuote;
-};
+}
 
 module.exports = async function (context, req) {
     context.res.json({
